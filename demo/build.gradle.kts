@@ -22,6 +22,10 @@ repositories {
 }
 
 dependencies {
+    implementation("com.theokanning.openai-gpt3-java:client:0.9.0")
+    implementation("com.slack.api:bolt:1.27.3")
+    implementation("com.slack.api:bolt-servlet:1.27.3")
+    implementation("com.slack.api:bolt-jetty:1.27.3")
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
